@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+.app {
+	height: 100vh;
+	background: #63C9A7;
+}
+
+form {
+	padding-top: 30px;
+	text-align: center;
+}
+
+form input {
+	padding: 10px;
+	background-color: bisque;
+	border-style: groove;
+	margin: 3px;
+}
+form button {
+	padding: 10px;
+	background-color: azure;
+	color: blueviolet;
+	font-weight: 700;
+	cursor: pointer;
+	margin: 3px;
+}
+.contactList {
+	padding: 30px;
+	color: aliceblue;
+	width: 500px;
+	margin: auto;
+}
+.contactList p {
+	margin: 10px 0;
+}
+.contactItem {
+	padding: 20px;
+	border: 1px solid;
+}
+.contactItem a {
+	text-decoration: none;
+	font-style: italic;
+	font-weight: 300;
+	color: cornsilk;
+}
+.contactImage {
+	height: 100px;
+	width: 100px;
+}
